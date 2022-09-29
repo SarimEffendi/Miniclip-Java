@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="485.0" prefWidth="633.0" style="-fx-background-color: cyan;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashboardController">
+   <children>
+      <Button alignment="CENTER" graphicTextGap="10.0" layoutX="42.0" layoutY="195.0" mnemonicParsing="false" onAction="#openCricketView" prefHeight="43.0" prefWidth="207.0" style="-fx-background-color: yellow;" text=" Cricket" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Text layoutX="107.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select A Game To Play">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Text>
+      <Button alignment="CENTER" layoutX="360.0" layoutY="195.0" mnemonicParsing="false" onAction="#openDiceView" prefHeight="43.0" prefWidth="207.0" style="-fx-background-color: yellow;" text="Dice game" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="42.0" layoutY="291.0" mnemonicParsing="false" onAction="#openRpsView" prefHeight="43.0" prefWidth="207.0" style="-fx-background-color: yellow;" text="Rock/Paper/Scissor" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="360.0" layoutY="291.0" mnemonicParsing="false" onAction="#openHangmanView" prefHeight="43.0" prefWidth="207.0" style="-fx-background-color: yellow;" text="Hangman" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="213.0" layoutY="381.0" mnemonicParsing="false" onAction="#openGTGView" prefHeight="43.0" prefWidth="207.0" style="-fx-background-color: yellow;" text="GTG" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Text layoutX="213.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Miniclip Project" wrappingWidth="414.13671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
